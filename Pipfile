@@ -8,8 +8,12 @@ kaggle = "*"
 nba-magic-stat = {editable = true, path = "./nba_magic_stat"}
 python-box = "*"
 pyyaml = "*"
+black = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
