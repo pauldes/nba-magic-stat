@@ -1,6 +1,4 @@
 import argparse
-import sys
-from typing import List
 
 from nba_magic_stat import conf, logger
 from nba_magic_stat import download, magic
@@ -8,7 +6,7 @@ from nba_magic_stat import download, magic
 
 def download_data(args=None):
     """Download data"""
-    download.download_data(args.seasons)
+    download.download_data()
 
 
 def generate_stats(args=None):

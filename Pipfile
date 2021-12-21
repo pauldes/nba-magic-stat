@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 kaggle = "*"
 nba-magic-stat = {editable = true, path = "./nba_magic_stat"}
+python-box = "*"
+pyyaml = "*"
 
 [dev-packages]
 
