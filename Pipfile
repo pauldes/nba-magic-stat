@@ -9,6 +9,7 @@ nba-magic-stat = {editable = true, path = "./nba_magic_stat"}
 python-box = "*"
 pyyaml = "*"
 black = "*"
+pandas = "*"
 
 [dev-packages]
 
